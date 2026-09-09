@@ -9,9 +9,15 @@ public class Main {
 
         System.out.println(config1 == config2);
 
-        config1.setImpuesto(19);
+        config1.setImpuesto(25);
 
         System.out.println(config2.getImpuesto());
+
+        Facturacion facturacion = new Facturacion();
+        facturacion.cambiarImpuesto(20);
+
+        Pedidos pedidos = new Pedidos();
+        pedidos.mostrarConfiguracion();
     }
 }
 

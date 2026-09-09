@@ -2,9 +2,9 @@ package pattern.singleton.ejercicio;
 
 public class Facturacion {
 
-    public void cambiarImpuesto() {
+    public void cambiarImpuesto(int impuesto) {
         Configuracion config = Configuracion.getInstance();
 
-        config.setImpuesto(19);
+        config.setImpuesto(impuesto);
     }
 }
