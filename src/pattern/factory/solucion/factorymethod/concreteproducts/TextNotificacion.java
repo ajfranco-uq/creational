@@ -1,6 +1,8 @@
-package pattern.factory.solucion.factory2;
+package pattern.factory.solucion.factorymethod.concreteproducts;
 
-class TextNotificacion implements Notificacion {
+import pattern.factory.solucion.factorymethod.product.Notificacion;
+
+public class TextNotificacion implements Notificacion {
     private String numeroTelefono;
 
     // Constructor que recibe el número de teléfono

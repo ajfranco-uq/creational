@@ -21,7 +21,7 @@ public class LazyMain {
         l2.hello();
 
         if(l == l2){
-            System.out.println("MISMA ISNTANCIA Singleton!!!");
+            System.out.println("MISMA INSTANCIA Singleton!!!");
         }else{
             System.out.println("DIFERENTE INSTANCIA Singleton");
         }

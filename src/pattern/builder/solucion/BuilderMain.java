@@ -7,6 +7,7 @@ import java.util.List;
 public class BuilderMain {
 
     public static void main(String[] args) {
+
         List<Producto> productos = List.of(
                 new Producto("Laptop", 3000000),
                 new Producto("Mouse", 80000)
@@ -24,8 +25,7 @@ public class BuilderMain {
                 .notificarCliente(true)
                 .build();
 
-
-
+        System.out.println(pedido);
 
 
 

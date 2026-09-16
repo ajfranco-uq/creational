@@ -1,5 +1,5 @@
-package pattern.factory.solucion.factory2;
+package pattern.factory.solucion.factorymethod.product;
 
-interface Notificacion {
+public interface Notificacion {
    void enviarNotificacion();
 }

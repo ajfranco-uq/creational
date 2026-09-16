@@ -1,6 +1,10 @@
-package pattern.factory.solucion.factory2;
+package pattern.factory.solucion.factorymethod.concretefactory;
 
-class EmailNotificacionFactory implements NotificacionFactory {
+import pattern.factory.solucion.factorymethod.concreteproducts.EmailNotificacion;
+import pattern.factory.solucion.factorymethod.factory.NotificacionFactory;
+import pattern.factory.solucion.factorymethod.product.Notificacion;
+
+public class EmailNotificacionFactory implements NotificacionFactory {
    private String correo;
 
    // Constructor que recibe la dirección de correo electrónico

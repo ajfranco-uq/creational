@@ -109,7 +109,27 @@ public class Pedido {
                 );
             }
 
+
             return new Pedido(this);
         }
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "numero='" + numero + '\'' +
+                ", cliente='" + cliente + '\'' +
+                ", productos=" + productos +
+                ", direccionEntrega='" + direccionEntrega + '\'' +
+                ", metodoPago='" + metodoPago + '\'' +
+                ", descuento=" + descuento +
+                ", envioExpress=" + envioExpress +
+                ", observaciones='" + observaciones + '\'' +
+                ", notificarCliente=" + notificarCliente +
+                '}';
     }
 }

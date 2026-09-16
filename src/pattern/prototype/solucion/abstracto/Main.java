@@ -24,5 +24,13 @@ public class Main {
         System.out.println("--------------");
 
         enero.mostrar();
+
+        Reporte febrero = reporteBase.clonar();
+        Reporte marzo = reporteBase.clonar();
+
+        febrero.setTitulo("asdf");
+
+        marzo.setTitulo("asdf");
+        marzo.mostrar();
     }
 }

@@ -1,4 +1,9 @@
-package pattern.factory.solucion.factory2;
+package pattern.factory.solucion.factorymethod;
+
+import pattern.factory.solucion.factorymethod.concretefactory.EmailNotificacionFactory;
+import pattern.factory.solucion.factorymethod.concretefactory.TextNotificacionFactory;
+import pattern.factory.solucion.factorymethod.factory.NotificacionFactory;
+import pattern.factory.solucion.factorymethod.product.Notificacion;
 
 public class Main {
    public static void main(String[] args) {

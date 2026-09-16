@@ -1,5 +1,7 @@
-package pattern.factory.solucion.factory2;
+package pattern.factory.solucion.factorymethod.factory;
 
-interface NotificacionFactory {
+import pattern.factory.solucion.factorymethod.product.Notificacion;
+
+public interface NotificacionFactory {
    Notificacion crearNotificacion();
 }

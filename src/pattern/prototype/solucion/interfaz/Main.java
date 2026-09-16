@@ -25,5 +25,18 @@ public class Main {
         System.out.println("--------------");
 
         enero.mostrar();
+
+
+        Clonador cl = new Clonador("a");
+        Clonador cl2 = cl.clonar();
+
+        cl.setName("asdf");
+        cl2.setName("sdfg");
+
+        //.....
+
+
+
+
     }
 }

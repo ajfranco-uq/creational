@@ -1,4 +1,4 @@
-package pattern.factory.solucion.factory1;
+package pattern.factory.solucion.simplefactory;
 
 public class Main {
 
